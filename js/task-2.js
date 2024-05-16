@@ -33,4 +33,4 @@ const createMarkup = images
   </li>`
   )
   .join("");
-list.insertAdjacentHTML("beforebegin", createMarkup);
+list.insertAdjacentHTML("beforeend", createMarkup);
